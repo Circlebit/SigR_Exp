@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.779
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SigR_Exp", "SigR_Exp\SigR_Exp.csproj", "{8A9F0E0C-C4EE-4BE7-9061-282EB536B2BF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRChat", "SignalRChat\SignalRChat.csproj", "{27C2B1C1-BEAA-424D-A7F4-E59C5A58050A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi1", "WebApi1\WebApi1.csproj", "{9A8A3D1C-096D-41E8-B5A8-8C7AA5F304FA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8A9F0E0C-C4EE-4BE7-9061-282EB536B2BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8A9F0E0C-C4EE-4BE7-9061-282EB536B2BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8A9F0E0C-C4EE-4BE7-9061-282EB536B2BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8A9F0E0C-C4EE-4BE7-9061-282EB536B2BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27C2B1C1-BEAA-424D-A7F4-E59C5A58050A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27C2B1C1-BEAA-424D-A7F4-E59C5A58050A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27C2B1C1-BEAA-424D-A7F4-E59C5A58050A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27C2B1C1-BEAA-424D-A7F4-E59C5A58050A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A8A3D1C-096D-41E8-B5A8-8C7AA5F304FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A8A3D1C-096D-41E8-B5A8-8C7AA5F304FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A8A3D1C-096D-41E8-B5A8-8C7AA5F304FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A8A3D1C-096D-41E8-B5A8-8C7AA5F304FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
